@@ -111,6 +111,6 @@ bst.treeInsert(new Node(1));
 bst.treeInsert(new Node(13));
 bst.treeInsert(new Node(-7));
 bst.treeInsert(new Node(3));
+bst.preOrder(bst.root);
 
-let result = bst.searchIteratively(bst.root, 13);
-console.log(result);
+console.log(bst.path);
